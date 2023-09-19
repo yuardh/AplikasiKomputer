@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Profil Mahasiswa</title>
+        <style>
+            .navigation {
+                display: flex;
+                justify-content: space-between;
+                background-color: #d8c3d1;
+                padding: 1px;
+            }
+
+            .logo {
+                width: 80px;
+                height: 80px;
+                background: url('logo-undip.png') no-repeat center center;
+                background-size: cover;
+            }
+
+            .menu {
+                display: flex;
+                list-style: none;
+            }
+
+            .menu li {
+                margin-right: 25px;
+            }
+
+            .menu a {
+                text-decoration: none;
+                color: #fff;
+                font-weight: bold;
+            }
+
+            .menu a:hover {
+                font-weight: bold;
+            }
+
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                padding: 20px;
+                color: white;
+                background-color: #d8c3d1;
+                text-align: center;
+                font-weight: bold;
+            }
+
+        </style>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+        rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <header>
+            <div class="navigation">
+                <div class="logo"></div>
+                    <ul class="menu">
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Profil</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+            </div>
+        </header>
+        
+        <main style="width: 700px; margin: 20px auto 0; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(38, 178, 243, 0.1); text-align: center; box-sizing: border-box;">
+            <div style="display: block; margin: 0 auto; width: 200px; height: 200px; border: 2px solid #333; border-radius: 50%; background: url('Foto berwarna.jpg') no-repeat center center; background-size: cover;"></div>
+            <h1 style="text-align: center;">Profil Mahasiswa</h1>
+            <div style="font-size: 18px; margin-top: 20px; text-align: left;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 10px; padding-left: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 5px;">
+                        <strong>Nama</strong> Yuditia Frendy Ardhianto
+                    </li>
+                    <li style="margin-bottom: 10px; padding-left: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 5px;">
+                        <strong>NIM</strong> 24010121130038
+                    </li>
+                    <li style="margin-bottom: 10px; padding-left: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 5px;">
+                        <strong>Alamat</strong> Jalan Mulawarman Dalam Utara II No.43, RT 2/RW 3
+                    </li>
+                    <li style="margin-bottom: 10px; padding-left: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 5px;">
+                        <strong>Motivasi</strong> Kerjakan selagi mampu dikerjakan
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>Yuditia Frendy Ardhianto &#169; 2023, Aplikasi Komputer</p>
+        </footer>
+    </body>
+</html>
